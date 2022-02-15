@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx tailwindcss -i style.css -o tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snehal-patel-96/Todo-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snehal-patel-96/Todo-List/issues"
+  },
+  "homepage": "https://github.com/Snehal-patel-96/Todo-List#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.22"
+  }
+}
