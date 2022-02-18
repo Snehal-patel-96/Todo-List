@@ -4,10 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Todo APP</title>
     <link rel="stylesheet" href="tailwind.css" />
   </head>
   <body>
-    <h1 class="bg-blue-700 text-white">HI</h1>
+    <!-- 1. add input field to add task 
+    2. display input field value into an ul list -->
+    <div class="container mx-auto bg-white p-10 border-2 font-poppins">
+      <h1 class="text-center p-4 text-3xl border-2">Todo List App</h1>
+      <div class="flex justify-center p-4">
+        <form>
+          <div class="flex border-2 border-gray-200 rounded">
+            <input
+              type="text"
+              class="py-3 px-5 w-80 outline-none"
+              placeholder="Enter Todo"
+              id="todo-input"
+            />
+            <button
+              type="submit"
+              class="px-4 m-1 bg-teal-600 hover:bg-teal-700 text-white rounded-2xl"
+            >
+              Add
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
