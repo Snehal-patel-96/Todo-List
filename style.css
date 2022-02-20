@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* custom button and icons styles */
+
+@layer components {
+  .fa-circle-plus {
+    @apply text-teal-600 text-3xl mr-2;
+  }
+  .fa-trash,
+  .fa-circle-check {
+    @apply text-white text-2xl;
+  }
+}

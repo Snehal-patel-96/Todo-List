@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/5933d86ec5.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Todo APP</title>
     <link rel="stylesheet" href="tailwind.css" />
   </head>
@@ -27,35 +32,19 @@
               placeholder="Enter Todo"
               id="todo-input"
             />
-            <button
-              type="submit"
-              class="px-4 m-1 bg-teal-600 hover:bg-teal-700 text-white rounded-2xl"
-            >
-              Add
+
+            <button type="submit">
+              <i class="fa-solid fa-circle-plus"></i>
             </button>
           </div>
         </form>
       </div>
 
-      <div
-        id="ul-container"
-        class="container mx-auto border-2 p-10 bg-slate-500"
-      >
-        <ul class="bg-white" id="ul">
-          <!-- <div
-            class="flex justify-between items-center border-2 bg-red-500 p-4"
-          >
-            <li class="flex-1">Task 1</li>
-            <button class="border-2 p-2 border-white rounded-full">
-              delete
-            </button>
-            <button class="border-2 p-2 border-white rounded-full">
-              complete
-            </button>
-          </div> -->
-        </ul>
+      <div id="ul-container" class="container mx-auto p-10">
+        <ul class="bg-white" id="ul"></ul>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
